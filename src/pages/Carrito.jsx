@@ -9,7 +9,7 @@ const Carrito = () => {
 
     <div className='carrito__container'>
         <h1>Detalles del pedido:</h1>
-        {cartItem.length === 0 ? (<span>Tu carrito esta vacio!</span>)
+        {cartItem.length === 0 ? (<span>Tu carro esta vacio</span>)
         :(<div>
             {cartItem.map((item) => (
                 <ItemCart key={item.id} item={item}/>
